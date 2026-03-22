@@ -1,0 +1,16 @@
+{
+  "name": "note-skill",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Claude Code /note skill for saving and organizing web notes with optional Notion sync.",
+  "main": "sync-to-notion.js",
+  "license": "MIT",
+  "scripts": {
+    "sync:notion": "node sync-to-notion.js",
+    "sync:notion:force": "node sync-to-notion.js --force"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.3.0",
+    "https-proxy-agent": "^7.0.6"
+  }
+}
