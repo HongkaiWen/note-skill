@@ -28,6 +28,7 @@ This skill saves and organizes AI-related links in the local project, with optio
 - Create or refresh the category copy under `data/by-category/{category}/`.
 - Update `data/index.json`.
 - Regenerate `data/CATALOG.md`.
+- Check if Notion is configured by verifying `.env` or `.env.local` contains both `NOTION_TOKEN` and `NOTION_DATABASE_ID`. If configured, run `node sync-to-notion.js` to sync the new entry to Notion.
 
 ### List archived entries
 
